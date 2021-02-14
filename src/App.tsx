@@ -16,7 +16,13 @@ export default class App extends React.Component {
 	render() {
 		return (
 			<Router>
-              <Link to="/skills">Skills</Link>
+				
+				<header>
+					<nav> 
+						<Link className="t-label-main" to="/" />
+						<Link className="t-label-skills" to="/skills" />
+					</nav>
+				</header>
 
 				<Switch>
 					<Route path="/skills">

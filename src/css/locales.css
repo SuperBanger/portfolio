@@ -1,0 +1,16 @@
+body[lang=en] {
+    --label-home: 'Main';
+    --label-skills: 'Skills';
+}
+
+body[lang=ru] {
+    --label-home: 'Главная';
+    --label-skills: 'Скилы';
+}
+
+.t-label-main::before {
+    content: var(--label-home);
+}
+.t-label-skills::before {
+    content: var(--label-skills);
+}
