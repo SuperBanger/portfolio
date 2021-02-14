@@ -1,7 +1,7 @@
 body[theme=light] {
-
+    --header-color: #07eeff;
 }
 
 body[lang=dark] {
-
+    --header-color: #07eeff;
 }

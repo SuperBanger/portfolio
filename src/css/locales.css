@@ -1,16 +1,27 @@
 body[lang=en] {
-    --label-home: 'Main';
-    --label-skills: 'Skills';
+    --home: 'Main';
+    --skills: 'Skills';
+    --experience: 'Experience';
 }
 
 body[lang=ru] {
-    --label-home: 'Главная';
-    --label-skills: 'Скилы';
+    --home: 'Главная';
+    --skills: 'Скилы';
+    --experience: 'Опыт';
 }
 
-.t-label-main::before {
-    content: var(--label-home);
+body[lang=pl] {
+    --home: 'Główna';
+    --skills: 'Umiejętności';
+    --experience: 'Doświadczenie';
 }
-.t-label-skills::before {
-    content: var(--label-skills);
+
+.t-main::before {
+    content: var(--home);
+}
+.t-skills::before {
+    content: var(--skills);
+}
+.t-experience::before {
+    content: var(--experience);
 }

@@ -8,23 +8,30 @@ import {
 import './App.css';
 
 import {
+	Experience,
 	Main,
 	Skills
-} from './components';
+} from './pages';
 
 export default class App extends React.Component {
 	render() {
 		return (
 			<Router>
-				
 				<header>
-					<nav> 
-						<Link className="t-label-main" to="/" />
-						<Link className="t-label-skills" to="/skills" />
+					<nav>
+						<Link className="t-main" to="/" />
+						<Link className="t-skills" to="/skills" />
+						<Link className="t-experience" to="/experience" />
 					</nav>
+					<div className="settings">
+						
+					</div>
 				</header>
 
 				<Switch>
+					<Route path="/experience">
+						<Experience />
+					</Route>
 					<Route path="/skills">
 						<Skills />
 					</Route>
