@@ -60,11 +60,11 @@ export default class App extends React.Component {
 					</Route>
 				</Switch>
 
-				<footer>
+				{/* <footer>
 					<div className="t-footer-text"></div>
 					<span>:&nbsp;</span>
 					<a target="_blank" rel="noopener noreferrer" href="https://github.com/SuperBanger/portfolio">Portfolio App</a>
-				</footer>
+				</footer> */}
     		</Router>
 		);
 	}

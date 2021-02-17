@@ -1,6 +1,5 @@
 header {
     height: 70px;
-    background-color: var(--header-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -8,6 +7,10 @@ header {
 .nav-menu-link {
     display: inline-block;
     margin-left: 20px;
+    font-size: 20px;
+    color: var(--nav-menu-font-color);
+    text-decoration: none;
+    font-weight: bold;
 }
 .settings {
     display: flex;

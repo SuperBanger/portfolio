@@ -4,7 +4,15 @@ import './Main.css';
 export class Main extends React.Component {
 	render() {
 		return (
-			<div>Main Page</div>
+			<main>
+				<div className="img city-img"></div>
+				<div className="img img-border">
+					<div className="my-img"></div>
+				</div>
+				<div className="about">
+					
+				</div>
+			</main>
 		);
 	}
 };

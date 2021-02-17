@@ -42,7 +42,7 @@ export class Dropdown extends React.Component<IProps, IState> {
 
 		return (
 			<div
-				className="container"
+				className="dd-container"
 				onClick={this.toggle}
 				onBlur={this.close}
 				tabIndex={0}

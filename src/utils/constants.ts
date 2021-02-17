@@ -9,12 +9,13 @@ export const themes: IDropdownItem[] = [
         label: 't-dark',
         icon: 'dark-theme'
     },
-    {
-        value: 'highcontrast',
-        label: 't-highcontrast',
-        icon: 'highcontrast-theme'
-    }
+    // {
+    //     value: 'highcontrast',
+    //     label: 't-highcontrast',
+    //     icon: 'highcontrast-theme'
+    // }
 ];
+
 export const languages: IDropdownItem[] = [
     {
         value: 'en',
