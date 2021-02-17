@@ -10,6 +10,7 @@ import './App.css';
 import * as pages from './pages';
 import * as components from './components';
 import * as utils from './utils/utils';
+import { languages, themes } from './utils/constants'
 
 export default class App extends React.Component {
 	render() {
@@ -32,14 +33,14 @@ export default class App extends React.Component {
 					<div className="settings">
 						<div className="setting-item">
 							<Dropdown
-								items={utils.getLanguagesData()}
+								items={languages}
 								select={utils.setLanguage}
 								getSelected={utils.getLanguage}
 							/>
 						</div>
 						<div className="setting-item">
 							<Dropdown
-								items={utils.getThemesData()}
+								items={themes}
 								select={utils.setTheme}
 								getSelected={utils.getTheme}
 							/>
@@ -62,7 +63,7 @@ export default class App extends React.Component {
 				<footer>
 					<div className="t-footer-text"></div>
 					<span>:&nbsp;</span>
-					<a href="https://github.com/SuperBanger/portfolio">Portfolio App</a>
+					<a target="_blank" rel="noopener noreferrer" href="https://github.com/SuperBanger/portfolio">Portfolio App</a>
 				</footer>
     		</Router>
 		);

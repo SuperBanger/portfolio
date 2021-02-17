@@ -6,11 +6,7 @@ interface IState {
 	selected: string | null;
 }
 interface IProps {
-    items: {
-        value: string;
-        label: string;
-        icon: string;
-    }[];
+    items: IDropdownItem[];
     select: (item: string) => void;
     getSelected: () => string | null;
 }
