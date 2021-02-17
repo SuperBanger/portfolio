@@ -2,18 +2,39 @@ body[lang=en] {
     --home: 'Main';
     --skills: 'Skills';
     --experience: 'Experience';
+    --ru: 'Russian';
+    --en: 'English';
+    --pl: 'Polish';
+    --light: 'Light';
+    --dark: 'Dark';
+    --highcontrast: 'High Contrast';
+    --footer-text: 'Аpplication source code here';
 }
 
 body[lang=ru] {
     --home: 'Главная';
     --skills: 'Скилы';
     --experience: 'Опыт';
+    --ru: 'Русский';
+    --en: 'Английский';
+    --pl: 'Польский';
+    --light: 'Светлая';
+    --dark: 'Тёмная';
+    --highcontrast: 'Высокий Контраст';
+    --footer-text: 'Исходный код приложения тут';
 }
 
 body[lang=pl] {
     --home: 'Główna';
     --skills: 'Umiejętności';
     --experience: 'Doświadczenie';
+    --ru: 'Rosyjski';
+    --en: 'Angielski';
+    --pl: 'Polski';
+    --light: 'Light';
+    --dark: 'Dark';
+    --highcontrast: 'High Contrast';
+    --footer-text: 'Kod źródłowy aplikacji tutaj';
 }
 
 .t-main::before {
@@ -24,4 +45,25 @@ body[lang=pl] {
 }
 .t-experience::before {
     content: var(--experience);
+}
+.t-ru::before {
+    content: var(--ru);
+}
+.t-en::before {
+    content: var(--en);
+}
+.t-pl::before {
+    content: var(--pl);
+}
+.t-light::before {
+    content: var(--light);
+}
+.t-dark::before {
+    content: var(--dark);
+}
+.t-highcontrast::before {
+    content: var(--highcontrast);
+}
+.t-footer-text::before {
+    content: var(--footer-text);
 }

@@ -1,3 +1,3 @@
-export * from './main/Main';
-export * from './skills/Skills';
-export * from './experience/Experience';
+export * from './Main/Main';
+export * from './Skills/Skills';
+export * from './Experience/Experience';

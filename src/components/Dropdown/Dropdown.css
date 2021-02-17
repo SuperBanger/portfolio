@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    padding: 3px;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+}
+.item-container {
+    display: flex;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+.en-flag {
+    background: url('../../img/icons.png') 0 0 no-repeat;
+}
+.ru-flag {
+    background: url('../../img/icons.png') 0 -48px no-repeat;
+}
+.pl-flag {
+    background: url('../../img/icons.png') 0 -24px no-repeat;
+}
+.light-theme {
+    background: url('../../img/icons.png') 0 -72px no-repeat;
+}
+.dark-theme {
+    background: url('../../img/icons.png') 0 -96px no-repeat;
+}
+.highcontrast-theme {
+    background: url('../../img/icons.png') 0 -120px no-repeat;
+}
+.label {
+    margin-right: 5px;
+}

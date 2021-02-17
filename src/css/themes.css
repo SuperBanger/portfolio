@@ -1,7 +1,14 @@
 body[theme=light] {
     --header-color: #07eeff;
+    --border-color: red;
 }
 
-body[lang=dark] {
+body[theme=dark] {
     --header-color: #07eeff;
+    --border-color: red;
+}
+
+body[theme=highcontrast] {
+    --header-color: #07eeff;
+    --border-color: red;
 }
