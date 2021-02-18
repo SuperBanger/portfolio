@@ -9,6 +9,12 @@ body[lang=en] {
     --dark: 'Dark';
     --highcontrast: 'High Contrast';
     --footer-text: 'Аpplication source code here';
+    --about: 'About';
+    --name: 'Uladzislau';
+    --surname: 'Maksimau';
+    --date-of-birth: '08.09.1993 (27 years)';
+    --job-title: 'Senior Software Engineer';
+    --city: 'Belarus, Minsk / Poland, Cracow';
 }
 
 body[lang=ru] {
@@ -22,6 +28,12 @@ body[lang=ru] {
     --dark: 'Тёмная';
     --highcontrast: 'Высокий Контраст';
     --footer-text: 'Исходный код приложения тут';
+    --about: 'О cебе';
+    --name: 'Владислав';
+    --surname: 'Максимов';
+    --date-of-birth: '08.09.1993 (27 лет)';
+    --job-title: 'Senior Software Engineer';
+    --city: 'Беларусь, Минск / Польша, Краков';
 }
 
 body[lang=pl] {
@@ -35,6 +47,12 @@ body[lang=pl] {
     --dark: 'Dark';
     --highcontrast: 'High Contrast';
     --footer-text: 'Kod źródłowy aplikacji tutaj';
+    --about: 'O mnie';
+    --name: 'Uladzislau';
+    --surname: 'Maksimau';
+    --date-of-birth: '08.09.1993 (27 lat)';
+    --job-title: 'Senior Software Engineer';
+    --city: 'Białorus, Mińsk / Polska, Kraków';
 }
 
 .t-main::before {
@@ -66,4 +84,22 @@ body[lang=pl] {
 }
 .t-footer-text::before {
     content: var(--footer-text);
+}
+.t-about::before {
+    content: var(--about);
+}
+.t-name::before {
+    content: var(--name);
+}
+.t-surname::before {
+    content: var(--surname);
+}
+.t-date-of-birth::before {
+    content: var(--date-of-birth);
+}
+.t-job-title::before {
+    content: var(--job-title);
+}
+.t-city::before {
+    content: var(--city);
 }

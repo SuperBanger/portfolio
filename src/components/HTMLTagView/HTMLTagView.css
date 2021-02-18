@@ -1,0 +1,6 @@
+.html-quote {
+    color: var(--html-quote-color);
+}
+.html-tag-name {
+    color: var(--html-tag-color);
+}

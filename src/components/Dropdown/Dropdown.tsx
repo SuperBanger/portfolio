@@ -56,7 +56,7 @@ export class Dropdown extends React.Component<IProps, IState> {
                     >
                         <div className={`icon ${item.icon}`} />
                         <div className="label">
-                            <div className={item.label}></div>
+                            <div className={item.locale}></div>
                         </div>
                     </div>
                 ))}

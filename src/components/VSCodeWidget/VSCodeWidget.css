@@ -1,0 +1,75 @@
+.vs-code-container {
+    display: inline-block;
+    background-color: var(--code-container-background-color);
+    border-top: 1px solid var(--code-container-background-color);
+    border-left: 1px solid var(--code-container-background-color);
+}
+.content-container {
+    display: flex;
+}
+.nav-menu-bar {
+    width: 30px;
+}
+.explorer-icon,
+.search-icon,
+.git-icon,
+.debug-icon,
+.extensions-icon {
+    font-family: 'codicon';
+    color: var(--codeicon-color);
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.explorer-icon::before {
+    content: '\eaf0';
+}
+.search-icon::before {
+    content: '\ea6d';
+}
+.git-icon::before {
+    content: '\ea68';
+}
+.debug-icon::before {
+    content: '\eb91';
+}
+.extensions-icon::before {
+    content: '\eae6';
+}
+.code-tab-header {
+    display: inline-block;
+}
+.code-tab-header,
+.code-tab {
+    color: var(--html-text-color);
+    padding: 5px 10px;
+    background-color: var(--code-tab-backgrount-color);
+}
+.code-header-bar {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    background-color: var(--vs-code-header-background-color);
+    color: var(--html-text-color);
+}
+.vs-code-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 2px;
+    background-image: url('../../assets/img/vs-code-icon.png');
+}
+.vs-code-menu-item {
+    margin-left: 10px;
+    font-size: 12px;
+}
+.line-counter {
+    float: left;
+    color: var(--code-line-counter-color);
+}
+.code-line {
+    margin: 0 0 0 20px;
+}
+.tab-space {
+    border-left: 1px solid var(--code-line-border-color);
+    padding-left: 2em;
+}

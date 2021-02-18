@@ -22,10 +22,18 @@
 	font-family: 'Oswald Semi-Bold';
 	src: url('../assets/fonts/Oswald/Oswald-SemiBold.ttf');
 }
+@font-face {
+	font-family: 'codicon';
+	src: url('../assets/fonts/codicon/codicon.ttf');
+}
 
 * {
 	box-sizing: border-box;
 	font-family: 'Oswald', sans-serif;
+}
+
+html, body, #root {
+	height: 100%;
 }
 
 body {

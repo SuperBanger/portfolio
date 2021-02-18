@@ -1,35 +1,61 @@
 export const themes: IDropdownItem[] = [
     {
         value: 'light',
-        label: 't-light',
+        locale: 't-light',
         icon: 'light-theme'
     },
     {
         value: 'dark',
-        label: 't-dark',
+        locale: 't-dark',
         icon: 'dark-theme'
     },
-    // {
-    //     value: 'highcontrast',
-    //     label: 't-highcontrast',
-    //     icon: 'highcontrast-theme'
-    // }
+    {
+        value: 'highcontrast',
+        locale: 't-highcontrast',
+        icon: 'highcontrast-theme'
+    }
 ];
 
 export const languages: IDropdownItem[] = [
     {
         value: 'en',
-        label: 't-en',
+        locale: 't-en',
         icon: 'en-flag'
     },
     {
         value: 'ru',
-        label: 't-ru',
+        locale: 't-ru',
         icon: 'ru-flag'
     },
     {
         value: 'pl',
-        label: 't-pl',
+        locale: 't-pl',
         icon: 'pl-flag'
     }
 ];
+export const aboutMeWidgetData: IVSCodeWidgetData = {
+    widgetName: 't-about',
+    infoTagName: 'about-me',
+    items: [
+        {
+            label: 'name',
+            locale: 't-name'
+        },
+        {
+            label: 'surname',
+            locale: 't-surname'
+        },
+        {
+            label: 'date-of-birth',
+            locale: 't-date-of-birth'
+        },
+        {
+            label: 'job-title',
+            locale: 't-job-title'
+        },
+        {
+            label: 'city',
+            locale: 't-city'
+        }
+    ]
+};
