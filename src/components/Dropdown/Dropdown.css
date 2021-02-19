@@ -1,10 +1,12 @@
 .dd-container {
     display: flex;
     padding: 3px;
-    border: 1px solid var(--code-container-background-color);
+    border: 1px solid var(--border-color-main);
     border-radius: 20px;
     cursor: pointer;
     outline: none;
+    background-color: var(--dd-bg-color);
+    color: var(--dd-text-color);
 }
 .item-container {
     display: flex;

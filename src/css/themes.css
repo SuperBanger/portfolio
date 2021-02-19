@@ -1,5 +1,5 @@
 body[theme=light] {
-    --nav-menu-font-color: white;
+    --nav-menu-font-color: #FFFFFF;
     /* --border-color: #3443fb; */
 
     --html-quote-color: #93A1A1;
@@ -11,10 +11,16 @@ body[theme=light] {
     --code-container-background-color: #D9D2C2;
     --vs-code-header-background-color: #EEE8D5;
     --codeicon-color: #A89E84;
+
+    --main-bg-color: #EEE8D5;
+    --dd-bg-color: #EEE8D5;
+    --dd-text-color: #333333;
+    --border-color-main: #D9D2C2;
+    --highcontrast-border: none;
 }
 
 body[theme=dark] {
-    --nav-menu-font-color: white;
+    --nav-menu-font-color: #FFFFFF;
     /* --border-color: #3443fb; */
 
     --html-quote-color: #FF9DA4;
@@ -26,10 +32,16 @@ body[theme=dark] {
     --code-container-background-color: #001733;
     --vs-code-header-background-color: #001126;
     --codeicon-color: #667485;
+    
+    --main-bg-color: #00346E;
+    --dd-bg-color: #00346E;
+    --dd-text-color: #FFFFFF;
+    --border-color-main: #001733;
+    --highcontrast-border: none;
 }
 
 body[theme=highcontrast] {
-    --nav-menu-font-color: white;
+    --nav-menu-font-color: #000000;
     /* --border-color: #3443fb; */
 
     --html-quote-color: #808080;
@@ -41,4 +53,10 @@ body[theme=highcontrast] {
     --code-container-background-color: #001733;
     --vs-code-header-background-color: #000000;
     --codeicon-color: #FFFFFF;
+
+    --main-bg-color: #000000;
+    --dd-bg-color: #FFFFFF;
+    --dd-text-color: #000000;
+    --border-color-main: #F38518;
+    --highcontrast-border: 1px solid #6FC3DF;
 }

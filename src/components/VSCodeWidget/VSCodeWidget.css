@@ -1,14 +1,15 @@
 .vs-code-container {
     display: inline-block;
     background-color: var(--code-container-background-color);
-    border-top: 1px solid var(--code-container-background-color);
-    border-left: 1px solid var(--code-container-background-color);
+    border-top: 1px solid var(--border-color-main);
+    border-left: 1px solid var(--border-color-main);
 }
 .content-container {
     display: flex;
 }
 .nav-menu-bar {
     width: 30px;
+    border-right: var(--highcontrast-border);
 }
 .explorer-icon,
 .search-icon,
@@ -17,7 +18,7 @@
 .extensions-icon {
     font-family: 'codicon';
     color: var(--codeicon-color);
-    margin-top: 5px;
+    margin-top: 15px;
     margin-left: 5px;
     font-size: 20px;
 }
@@ -38,6 +39,7 @@
 }
 .code-tab-header {
     display: inline-block;
+    border-right: var(--highcontrast-border);
 }
 .code-tab-header,
 .code-tab {
@@ -45,12 +47,16 @@
     padding: 5px 10px;
     background-color: var(--code-tab-backgrount-color);
 }
+.code-tab {
+    border-top: var(--highcontrast-border);
+}
 .code-header-bar {
     display: flex;
     align-items: center;
     height: 24px;
     background-color: var(--vs-code-header-background-color);
     color: var(--html-text-color);
+    border-bottom: var(--highcontrast-border);
 }
 .vs-code-icon {
     width: 16px;

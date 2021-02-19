@@ -6,13 +6,21 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-.nav-menu-link {
+nav {
+    display: flex;
+}
+a:-webkit-any-link.nav-menu-link {
+    padding: 5px 15px;
     display: inline-block;
     margin-left: 20px;
     font-size: 20px;
-    color: var(--nav-menu-font-color);
     text-decoration: none;
     font-weight: bold;
+    border: 1px solid var(--border-color-main);
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: var(--dd-bg-color);
+    color: var(--dd-text-color);
 }
 .settings {
     display: flex;
@@ -25,4 +33,9 @@ footer {
     height: 30px;
     align-items: center;
     justify-content: center;
+    background-color: var(--main-bg-color);
+    color: var(--html-text-color);
+}
+a:-webkit-any-link {
+    color: var(--html-text-color);
 }
