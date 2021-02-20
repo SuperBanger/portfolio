@@ -16,6 +16,13 @@ body[lang=en] {
     --job-title: 'Senior Software Engineer';
     --city: 'Belarus, Minsk / Poland, Cracow';
     --my-photo: 'My Photo';
+    --education: 'Education';
+    --university: 'Belarusian State University';
+    --faculty: 'Faculty of Applied Mathematics and Computer Science';
+    --degree: 'Bachelor';
+    --specialty: 'Applied Mathematics';
+    --qualification: 'Mathematician-Programmer';
+    --years: '2011-2017';    
 }
 
 body[lang=ru] {
@@ -36,6 +43,13 @@ body[lang=ru] {
     --job-title: 'Senior Software Engineer';
     --city: 'Беларусь, Минск / Польша, Краков';
     --my-photo: 'Моё Фото';
+    --education: 'Образование';
+    --university: 'Белорусский Государственный Университет';
+    --faculty: 'Факультет Прикладной Математики и Информатики';
+    --degree: 'Бакалавр';
+    --specialty: 'Прикладная Математика';
+    --qualification: 'Математик-Программист';
+    --years: '2011-2017';   
 }
 
 body[lang=pl] {
@@ -56,6 +70,13 @@ body[lang=pl] {
     --job-title: 'Senior Software Engineer';
     --city: 'Białorus, Mińsk / Polska, Kraków';
     --my-photo: 'Moje Zdjęcie';
+    --education: 'Edukacja';
+    --university: 'Białoruski Uniwersytet Państwowy';
+    --faculty: 'Wydział Matematyki Stosowanej i Informatyki';
+    --degree: 'Licencjat';
+    --specialty: 'Matematyka Stosowana';
+    --qualification: 'Matematyk-Programista';
+    --years: '2011-2017';
 }
 
 .t-main::before {
@@ -108,4 +129,25 @@ body[lang=pl] {
 }
 .t-my-photo::before {
     content: var(--my-photo);
+}
+.t-education::before {
+    content: var(--education);
+}
+.t-university::before {
+    content: var(--university);
+}
+.t-faculty::before {
+    content: var(--faculty);
+}
+.t-degree::before {
+    content: var(--degree);
+}
+.t-specialty::before {
+    content: var(--specialty);
+}
+.t-qualification::before {
+    content: var(--qualification);
+}
+.t-years::before {
+    content: var(--years);
 }

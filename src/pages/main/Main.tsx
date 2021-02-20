@@ -2,22 +2,30 @@ import React from 'react';
 import './Main.css';
 
 import { VSCodeWidget } from '../../components';
-import { aboutMeWidgetData } from '../../utils/constants';
+import {
+	aboutMeWidgetData,
+	educationWidgetData
+} from '../../utils/constants';
 
 export class Main extends React.Component {
 	render() {
-		const { widgetName, infoTagName, items, photo } = aboutMeWidgetData;
-
 		return (
 			<main>
 				<div className="city-img"></div>
 				<div className="main-info">
 					<div className="about">
 						<VSCodeWidget
-							widgetName={widgetName}
-							infoTagName={infoTagName}
-							items={items}
-							photo={photo}
+							widgetName={aboutMeWidgetData.widgetName}
+							infoTagName={aboutMeWidgetData.infoTagName}
+							items={aboutMeWidgetData.items}
+							photo={aboutMeWidgetData.photo}
+						/>
+					</div>
+					<div className="educatoin">
+						<VSCodeWidget
+							widgetName={educationWidgetData.widgetName}
+							infoTagName={educationWidgetData.infoTagName}
+							items={educationWidgetData.items}
 						/>
 					</div>
 				</div>

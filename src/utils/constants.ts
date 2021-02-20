@@ -63,3 +63,34 @@ export const aboutMeWidgetData: IVSCodeWidgetData = {
         className: 'my-img'
     }
 };
+
+export const educationWidgetData: IVSCodeWidgetData = {
+    widgetName: 't-education',
+    infoTagName: 'education',
+    items: [
+        {
+            label: 'university',
+            locale: 't-university'
+        },
+        {
+            label: 'faculty',
+            locale: 't-faculty'
+        },
+        {
+            label: 'degree',
+            locale: 't-degree'
+        },
+        {
+            label: 'specialty',
+            locale: 't-specialty'
+        },
+        {
+            label: 'qualification',
+            locale: 't-qualification'
+        },
+        {
+            label: 'years',
+            locale: 't-years'
+        }
+    ]
+};
