@@ -1,11 +1,11 @@
 import React from 'react';
 import './VSCodeWidget.css';
 
-import { HTMLTagView } from '../';
+import { HTMLCodeView } from '../';
 
 export class VSCodeWidget extends React.Component<IVSCodeWidgetData, {}> {
 	render() {
-        const { infoTagName, widgetName, items } = this.props;
+        const { infoTagName, widgetName, items, photo } = this.props;
 
 		return (
 			<div className="vs-code-container">
@@ -28,34 +28,26 @@ export class VSCodeWidget extends React.Component<IVSCodeWidgetData, {}> {
                         <div className="debug-icon" />
                         <div className="extensions-icon" />
                     </div>
+                    {photo && (
+                        <div className="content">
+                            <div className="code-tab-header">
+                                <div className={photo.tabName}>.png</div>
+                            </div>
+                            <div className="code-tab image">
+                                <div className={photo.className}></div>
+                            </div>
+                        </div>
+                    )}
+                    
                     <div className="content">
                         <div className="code-tab-header">
                             <div className={widgetName}>.html</div>
                         </div>
                         <div className="code-tab">
-                            <code>
-                                <span className="line-counter">1</span>
-                                <p className="code-line">
-                                    <HTMLTagView tagName={infoTagName} closing={false} />
-                                </p>
-                                {items.map((item, i) => 
-                                    (<React.Fragment key={i}>
-                                        <span className="line-counter">{2 + i}</span>
-                                        <p className="code-line tab-space">
-                                            <HTMLTagView tagName={item.label} closing={false} />
-                                            <span className={item.locale} />
-                                            <HTMLTagView tagName={item.label} closing={true} />
-                                        </p>
-                                    </React.Fragment>)
-                                )}
-                                <span className="line-counter">{2 + items.length}</span>
-                                <p className="code-line">
-                                    <HTMLTagView tagName={infoTagName} closing={true} />
-                                </p>
-                                {/* Ends with empty line */}
-                                <span className="line-counter">{3 + items.length}</span>
-                                <p className="code-line">&nbsp;</p>
-                            </code>
+                            <HTMLCodeView
+                                infoTagName={infoTagName}
+                                items={items}
+                            />
                         </div>
                     </div>
                 </div>

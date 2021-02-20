@@ -57,5 +57,9 @@ export const aboutMeWidgetData: IVSCodeWidgetData = {
             label: 'city',
             locale: 't-city'
         }
-    ]
+    ],
+    photo: {
+        tabName: 't-my-photo',
+        className: 'my-img'
+    }
 };

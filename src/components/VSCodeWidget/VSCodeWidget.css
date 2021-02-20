@@ -1,11 +1,18 @@
 .vs-code-container {
     display: inline-block;
     background-color: var(--code-container-background-color);
-    border-top: 1px solid var(--border-color-main);
-    border-left: 1px solid var(--border-color-main);
+    width: 100%;
+    height: 100%;
 }
 .content-container {
     display: flex;
+    height: calc(100% - 24px);
+}
+.content {
+    flex-grow: 1;
+}
+.content:not(:last-child) {
+    border-right: 1px solid var(--code-line-border-color);
 }
 .nav-menu-bar {
     width: 30px;
@@ -49,6 +56,7 @@
 }
 .code-tab {
     border-top: var(--highcontrast-border);
+    height: calc(100% - 30px);
 }
 .code-header-bar {
     display: flex;
@@ -61,21 +69,24 @@
 .vs-code-icon {
     width: 16px;
     height: 16px;
-    margin-left: 2px;
+    margin-left: 7px;
     background-image: url('../../assets/img/vs-code-icon.png');
 }
 .vs-code-menu-item {
     margin-left: 10px;
     font-size: 12px;
 }
-.line-counter {
-    float: left;
-    color: var(--code-line-counter-color);
+.my-img {
+    background-image: url('../../assets/img/my.JPG');
+    background-size: cover;
+    height: 100%;
 }
-.code-line {
-    margin: 0 0 0 20px;
+body[theme=dark] .my-img {
+    background-image: url('../../assets/img/my-dark.jpg');
 }
-.tab-space {
-    border-left: 1px solid var(--code-line-border-color);
-    padding-left: 2em;
+body[theme=highcontrast] .my-img {
+    background-image: url('../../assets/img/my-highcontrast.jpg');
+}
+.image {
+    padding: 0 20px;
 }

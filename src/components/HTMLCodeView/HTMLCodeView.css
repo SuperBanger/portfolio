@@ -1,0 +1,20 @@
+.line-counter {
+    float: left;
+    color: var(--code-line-counter-color);
+}
+.code-line {
+    margin: 0 0 0 20px;
+}
+.code-line:hover {
+    background-color: var(--main-bg-color);
+}
+.tab-space {
+    border-left: 1px solid var(--code-line-border-color);
+    padding-left: 2em;
+}
+body[theme=highcontrast] .code-line {
+    border: 1px solid var(--main-bg-color);
+}
+body[theme=highcontrast] .code-line:hover {
+    border: 1px solid var(--border-color-main);
+}
