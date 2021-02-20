@@ -52,7 +52,7 @@
 .code-tab {
     color: var(--html-text-color);
     padding: 5px 10px;
-    background-color: var(--code-tab-backgrount-color);
+    background-color: var(--code-tab-background-color);
 }
 .code-tab {
     border-top: var(--highcontrast-border);
@@ -70,7 +70,7 @@
     width: 16px;
     height: 16px;
     margin-left: 7px;
-    background-image: url('../../assets/img/vs-code-icon.png');
+    background: url('../../assets/img/icons.png') -24px 0 no-repeat;
 }
 .vs-code-menu-item {
     margin-left: 10px;

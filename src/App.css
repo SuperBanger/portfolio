@@ -22,6 +22,15 @@ a:-webkit-any-link.nav-menu-link {
     background-color: var(--dd-bg-color);
     color: var(--dd-text-color);
 }
+a:-webkit-any-link.nav-menu-link:hover {
+    background-color: var(--code-tab-background-color);
+}
+body[theme=highcontrast] a:-webkit-any-link.nav-menu-link:hover {
+    background-color: var(--dd-bg-color);
+    border: 3px solid var(--border-color-main);
+    margin-right: -4px;
+    margin-top: -4px;
+}
 .settings {
     display: flex;
 }

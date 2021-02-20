@@ -3,7 +3,7 @@ import {
 	BrowserRouter as Router,
 	Switch,
 	Route,
-	Link
+	// Link
 } from 'react-router-dom';
 import './App.css';
 
@@ -20,7 +20,7 @@ export default class App extends React.Component {
 			<Router>
 				<header>
 					<nav>
-						<Link className="nav-menu-link" to="/">
+						{/* <Link className="nav-menu-link" to="/">
 							<div className="t-main"></div>
 						</Link>
 						<Link className="nav-menu-link" to="/skills">
@@ -28,7 +28,7 @@ export default class App extends React.Component {
 						</Link>
 						<Link className="nav-menu-link" to="/experience">
 							<div className="t-experience"></div>
-						</Link>
+						</Link> */}
 					</nav>
 					<div className="settings">
 						<div className="setting-item">

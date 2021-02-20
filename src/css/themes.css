@@ -5,7 +5,7 @@ body[theme=light] {
     --html-quote-color: #93A1A1;
     --html-text-color: #333333;
     --html-tag-color: #268BD5;
-    --code-tab-backgrount-color: #FDF6E3;
+    --code-tab-background-color: #FDF6E3;
     --code-line-border-color: #828A84;
     --code-line-counter-color: #237893;
     --code-container-background-color: #D9D2C2;
@@ -26,7 +26,7 @@ body[theme=dark] {
     --html-quote-color: #FF9DA4;
     --html-text-color: #FFFFFF;
     --html-tag-color: #FF9D91;
-    --code-tab-backgrount-color: #002451;
+    --code-tab-background-color: #002451;
     --code-line-border-color: #404F7D;
     --code-line-counter-color: #858585;
     --code-container-background-color: #001733;
@@ -47,7 +47,7 @@ body[theme=highcontrast] {
     --html-quote-color: #808080;
     --html-text-color: #FFFFFF;
     --html-tag-color: #569CD6;
-    --code-tab-backgrount-color: #000000;
+    --code-tab-background-color: #000000;
     --code-line-border-color: #FFFFFF;
     --code-line-counter-color: #FFFFFF;
     --code-container-background-color: #001733;
