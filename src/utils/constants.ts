@@ -54,6 +54,10 @@ export const aboutMeWidgetData: IVSCodeWidgetData = {
             locale: 't-job-title'
         },
         {
+            label: 'primary-skill',
+            locale: 't-primary-skill'
+        },
+        {
             label: 'city',
             locale: 't-city'
         }

@@ -29,6 +29,7 @@ body[lang=en] {
     --telegram-link: 'https://t.me/@fakeId####';
     --city: 'Cracow';
     --email: 'what@fakemail.com';
+    --primary-skill: 'JavaScript / Front-End Development';
 }
 
 body[lang=ru] {
@@ -62,6 +63,7 @@ body[lang=ru] {
     --telegram-link: 'https://t.me/@fakeId####';
     --city: 'Краков';
     --email: 'what@fakemail.com';
+    --primary-skill: 'JavaScript / Front-End Разработка';
 }
 
 body[lang=pl] {
@@ -95,6 +97,7 @@ body[lang=pl] {
     --telegram-link: 'https://t.me/@fakeId####';
     --city: 'Kraków';
     --email: 'what@fakemail.com';
+    --primary-skill: 'JavaScript / Front-End Dewelopment';
 }
 
 .t-main::before {
@@ -186,4 +189,7 @@ body[lang=pl] {
 }
 .t-email::before {
     content: var(--email);
+}
+.t-primary-skill::before {
+    content: var(--primary-skill);
 }

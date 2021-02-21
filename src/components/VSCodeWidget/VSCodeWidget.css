@@ -10,6 +10,7 @@
 }
 .content {
     flex-grow: 1;
+    flex-basis: 400px;
 }
 .content:not(:last-child) {
     border-right: 1px solid var(--code-line-border-color);
