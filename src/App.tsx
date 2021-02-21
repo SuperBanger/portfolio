@@ -18,6 +18,7 @@ export default class App extends React.Component {
 
 		return (
 			<Router>
+				<div className="city-img"></div>
 				<header>
 					<nav>
 						{/* <Link className="nav-menu-link" to="/">

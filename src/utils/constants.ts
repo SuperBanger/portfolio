@@ -94,3 +94,30 @@ export const educationWidgetData: IVSCodeWidgetData = {
         }
     ]
 };
+
+export const contactsWidgetData: IVSCodeWidgetData = {
+    widgetName: 't-contacts',
+    infoTagName: 'contacts',
+    items: [
+        {
+            label: 'city',
+            locale: 't-city'
+        },
+        {
+            label: 'phone-number-by',
+            locale: 't-phone-number-by'
+        },
+        {
+            label: 'phone-number-pl',
+            locale: 't-phone-number-pl'
+        },
+        {
+            label: 'telegram-link',
+            locale: 't-telegram-link'
+        },
+        {
+            label: 'email',
+            locale: 't-email'
+        }
+    ]
+};
